@@ -45,7 +45,7 @@ public class Main {
         double donation = Double.parseDouble(sc.nextLine());
 
             //This thanks the user for donating and wishes them well.
-        System.out.println("Thanks for donating $" + donation + "0. Have a great day, " + name + "!");
-
+        System.out.println("Thanks for donating $" + donation + "0. Have a great day, " + name + ", and have fun" +
+                " when you go " + activity + " next!");
         }
     }
